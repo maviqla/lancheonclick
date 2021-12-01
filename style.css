@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(grelha.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    
+}
+
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: bolder;
+    font-size: 52px;
+    letter-spacing: 2px;
+    z-index: 3;
+
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    width: 99%;
+    height: 75px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.5);
+    
+}
+
+#logo {
+    background-image: url(burguer.png);
+    background-size: cover;
+    background-repeat: none;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 30px;
+
+}
+
+#menubox {
+    background: rgba(34, 32, 31, 0.5);
+    width: 650px;
+    height: 100%;
+    padding: 35px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-family:'Merriweather Sans', sans-serif;
+   
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#finalbutton {
+    background-color: rgb(56, 50, 49);
+    color: white;
+    border-color: rgb(56, 50, 49);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 50%;
+   padding: 12px;
+}
+
+input[type='radio']:checked{
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #ffa500;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+#pao1 {
+
+}
+
+#pao2 {
+
+}
+
+#pao3 {
+
+}
+
+#burguer1 {
+
+}
+
+#burguer2 {
+
+}
+
+#burguer3 {
+
+}
+
+#salad1 {
+
+}
+
+#salad2 {
+
+}
+
+#salad3 {
+
+}
+
+#x1 {
+
+}
+
+#x2 {
+
+}
+
+#x3 {
+
+}
+
+#x0 {
+
+}
+
+#listafinal1 {
+
+}
+
+#lsitafinal2 {
+
+}
+
+#listafinal3 {
+
+}
+
+#listafinal4 {
+
+}
+

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Lancheria</title>
+
+</head>
+
+<body id="container">
+
+    <div id="header">
+        <div id="logo"></div>
+        <h1>BURGUERTIME</h1>
+        <div id="logo"></div>
+    </div>
+    <div id="container">
+        <div id="menubox">
+            <div>
+                <h2>CARDÁPIO</h2>
+                
+            </div>        
+            <form action="get" id="form1"> 
+                <div>
+                    <h3>Monte seu Lanche</h3>
+                    <h4>Pães</h4>
+                    <span>
+                        <input id="pao1" type="radio" name="pao">Pão Francês.............................................................R$3,50</p> 
+                        <input id="pao2" type="radio" name="pao">Pão Australiano........................................................R$8,00</p>
+                        <input id="pao3" type="radio" name="pao">Pão de Brioche.........................................................R$6,00</p>
+                    </span>
+                </div>
+                <div>   
+                    <h4>Hambúrgueres</h4>
+                    <span>
+                        <input id="burguer1" type="radio" name="burguer">Hamburguer de Picanha.......................................................R$13,00</p> 
+                        <input id="burguer2" type="radio" name="burguer">Hambúrguer de Costela........................................................R$10,00</p>
+                        <input id="burguer3" type="radio" name="burguer">Hambúrguer Vegano.............................................................R$12,00</p>
+                    </span>
+               </div>
+               <div>
+                <form action="get" id="form3"> 
+                    <h4>Salada</h4>
+                    <span>
+                        <input id="salad1" type="radio" name="salada">Alface..............................,......................................................R$1,50</p> 
+                        <input id="salad2" type="radio" name="salada">Tomate...................................................................................R$1,50</p>
+                        <input id="salad3" type="radio" name="salada">sem salada.............................................................................R$00,00</p>
+                    </span>
+                </form>
+               </div>
+               <div>
+                    <h4>Queijos</h4>
+                    <span>
+                        <input id="x1" type="radio" name="queijo">Mussarela...............................................................................R$3,00</p> 
+                        <input id="x2" type="radio" name="queijo">Prato.......................................................................................R$3,00</p>
+                        <input id="x3" type="radio" name="queijo">Cheddar...................................................................................R$5,00</p>
+                    </span>
+               </div>
+            </form>
+            <input id="finalbutton" type="button" name="" onclick="menu()" value="Finalizar Pedido" />
+            <h3>Valor Final: <p id="final"></p></h3>
+            <h3>Items Escolhidos: </h3>
+            <p id="listafinal1"></p>
+            <p id="listafinal2"></p>
+            <p id="listafinal3"></p>
+            <p id="listafinal4"></p>
+         
+
+        </div>
+    </div>
+
+</body>
+
+<script src="onclick.js"></script>
+
+</html>
